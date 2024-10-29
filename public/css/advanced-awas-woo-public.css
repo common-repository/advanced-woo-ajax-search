@@ -1,0 +1,85 @@
+/**
+ * All of the CSS for your public-facing functionality should be
+ * included in this file.
+ */
+
+ .widget .select2 {
+    width: 100% !important;
+}
+
+.live-asfw-woo-search input[type="text"],
+#live-asfw-woo-sku-search input[type="text"] {
+    width: 100%;
+    letter-spacing: 1.2px;
+    text-transform: capitalize;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+.select2-search__field {
+    letter-spacing: 1.2px;
+}
+
+.live-asfw-woo-widget ul {
+    list-style-type: none;
+}
+
+.live-asfw-woo-widget ul li a:hover:before {
+    background-position: bottom center;
+}
+
+.widget span.widget-title {
+    font-weight: 700;
+}
+
+#live_ajaxsearch_title_sec {
+    list-style: none;
+    margin: 0;
+}
+
+#live_ajaxsearch_title_sec li {
+    width: 100%;
+    background: #fefdfd;
+    padding: 5px 10px;
+    box-sizing: border-box;
+    border: 1px solid #ececec;
+    margin: 2px 0;
+    text-transform: uppercase;
+    transition: .5s ease;
+}
+
+#live_ajaxsearch_title_sec li a {
+    text-decoration: none;
+    display: block;
+}
+
+#live_ajaxsearch_title_sec li:hover {
+    background: #60646c;
+}
+
+#live_ajaxsearch_title_sec li:hover a {
+    color: #fff;
+}
+
+.widget .widget-title {
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.widget-area .widget .live-asfw-woo-widget ul li a {
+    text-transform: uppercase;
+    box-shadow: none;
+}
+
+.live-asfw-woo-widget input.select2-search__field {
+    width: 100% !important;
+}
+
+.live-asfw-woo-widget {
+    padding: 0 5px;
+}
+
+.widget .widget-title {
+    padding-bottom: 0;
+    margin-bottom: 0;
+}
